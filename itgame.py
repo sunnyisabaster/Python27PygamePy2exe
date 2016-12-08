@@ -3,6 +3,7 @@
 # 1 - 引入包
 import pygame
 from pygame.locals import *
+from sys import exit#引入这个包否则退出时会抛异常
 import math
 import random
 #这个必须要引用否则打包游戏时会出错
